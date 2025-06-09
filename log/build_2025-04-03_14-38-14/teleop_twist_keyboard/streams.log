@@ -1,0 +1,32 @@
+[1.479s] Invoking command in '/home/spech/tfm_ws/src/teleop_twist_keyboard': PYTHONPATH=/home/spech/tfm_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spech/tfm_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/spech/tfm_ws/build/teleop_twist_keyboard/build install --record /home/spech/tfm_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[1.772s] running egg_info
+[1.773s] creating ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info
+[1.773s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[1.774s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[1.774s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[1.774s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[1.775s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[1.815s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.865s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.866s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.866s] running build
+[1.866s] running build_py
+[1.867s] creating /home/spech/tfm_ws/build/teleop_twist_keyboard/build
+[1.867s] creating /home/spech/tfm_ws/build/teleop_twist_keyboard/build/lib
+[1.867s] copying teleop_twist_keyboard.py -> /home/spech/tfm_ws/build/teleop_twist_keyboard/build/lib
+[1.867s] running install
+[1.868s] running install_lib
+[1.869s] copying /home/spech/tfm_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/spech/tfm_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages
+[1.870s] byte-compiling /home/spech/tfm_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-38.pyc
+[1.873s] running install_data
+[1.873s] creating /home/spech/tfm_ws/install/teleop_twist_keyboard/share/ament_index
+[1.874s] creating /home/spech/tfm_ws/install/teleop_twist_keyboard/share/ament_index/resource_index
+[1.874s] creating /home/spech/tfm_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[1.874s] copying resource/teleop_twist_keyboard -> /home/spech/tfm_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[1.874s] copying package.xml -> /home/spech/tfm_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard
+[1.874s] running install_egg_info
+[1.876s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/spech/tfm_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard-2.4.0-py3.8.egg-info
+[1.878s] running install_scripts
+[1.900s] Installing teleop_twist_keyboard script to /home/spech/tfm_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[1.901s] writing list of installed files to '/home/spech/tfm_ws/build/teleop_twist_keyboard/install.log'
+[1.932s] Invoked command in '/home/spech/tfm_ws/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/spech/tfm_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/spech/tfm_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/spech/tfm_ws/build/teleop_twist_keyboard/build install --record /home/spech/tfm_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data

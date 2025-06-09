@@ -1,0 +1,23 @@
+[0.201s] Invoking command in '/home/spech/tfm_ws/build/rcauto_sim_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --build /home/spech/tfm_ws/build/rcauto_sim_pkg -- -j4 -l4
+[1.110s] Invoked command in '/home/spech/tfm_ws/build/rcauto_sim_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --build /home/spech/tfm_ws/build/rcauto_sim_pkg -- -j4 -l4
+[1.216s] Invoking command in '/home/spech/tfm_ws/build/rcauto_sim_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --install /home/spech/tfm_ws/build/rcauto_sim_pkg
+[1.242s] -- Install configuration: ""
+[1.255s] -- Execute custom install script
+[1.286s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/launch/nav2_smac.launch.py
+[1.300s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/launch/tfm_sim.launch.py
+[1.303s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/package_run_dependencies/rcauto_sim_pkg
+[1.306s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/parent_prefix_path/rcauto_sim_pkg
+[1.309s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/ament_prefix_path.sh
+[1.311s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/ament_prefix_path.dsv
+[1.314s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/path.sh
+[1.316s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/path.dsv
+[1.320s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.bash
+[1.322s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.sh
+[1.325s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.zsh
+[1.326s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.dsv
+[1.327s] -- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.dsv
+[1.363s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/packages/rcauto_sim_pkg
+[1.365s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/cmake/rcauto_sim_pkgConfig.cmake
+[1.367s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/cmake/rcauto_sim_pkgConfig-version.cmake
+[1.368s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.xml
+[1.377s] Invoked command in '/home/spech/tfm_ws/build/rcauto_sim_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --install /home/spech/tfm_ws/build/rcauto_sim_pkg

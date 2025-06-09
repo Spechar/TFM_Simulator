@@ -1,0 +1,38 @@
+[0.025s] Invoking command in '/home/spech/tfm_ws/build/rcauto_sim_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --build /home/spech/tfm_ws/build/rcauto_sim_pkg -- -j4 -l4
+[0.193s] Invoked command in '/home/spech/tfm_ws/build/rcauto_sim_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --build /home/spech/tfm_ws/build/rcauto_sim_pkg -- -j4 -l4
+[0.236s] Invoking command in '/home/spech/tfm_ws/build/rcauto_sim_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --install /home/spech/tfm_ws/build/rcauto_sim_pkg
+[0.280s] -- Install configuration: ""
+[0.287s] -- Execute custom install script
+[0.289s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/launch/nav2_wayfollow.launch.py
+[0.290s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/launch/tfm_sim.launch.py
+[0.290s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/lib/rcauto_sim_pkg/racing_line_extractor.py
+[0.291s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/lib/rcauto_sim_pkg/show_path.py
+[0.291s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/lib/rcauto_sim_pkg/skelet_path.py
+[0.292s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/nav2_config.yaml
+[0.293s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/nav2_wayfollow.yaml
+[0.293s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/navigate_w_replanning_and_recovery.xml
+[0.294s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/racing_line.yaml
+[0.295s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/slam_config.yaml
+[0.296s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/slam_localization.yaml
+[0.304s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/Spielberg_map.png
+[0.304s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/levine.png
+[0.305s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/pau_track/mapa_pau.pgm
+[0.305s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/pau_track/mapa_pau_track.pgm
+[0.305s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/pau_track/mapa_pau_track.xcf
+[0.307s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/pau_track/mapa_pau_track.yaml
+[0.307s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/package_run_dependencies/rcauto_sim_pkg
+[0.308s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/parent_prefix_path/rcauto_sim_pkg
+[0.313s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/ament_prefix_path.sh
+[0.314s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/ament_prefix_path.dsv
+[0.316s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/path.sh
+[0.322s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/path.dsv
+[0.324s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.bash
+[0.326s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.sh
+[0.327s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.zsh
+[0.329s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.dsv
+[0.331s] -- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.dsv
+[0.380s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/packages/rcauto_sim_pkg
+[0.380s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/cmake/rcauto_sim_pkgConfig.cmake
+[0.380s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/cmake/rcauto_sim_pkgConfig-version.cmake
+[0.381s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.xml
+[0.386s] Invoked command in '/home/spech/tfm_ws/build/rcauto_sim_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --install /home/spech/tfm_ws/build/rcauto_sim_pkg

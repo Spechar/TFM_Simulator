@@ -1,0 +1,26 @@
+waypoint_follower:
+  ros__parameters:
+    # Plugin del Waypoint Follower
+    plugin: "nav2_waypoint_follower/WaypointFollower"
+    # Límites de velocidad
+    max_vel_x: 0.5        # m/s, velocidad lineal máxima
+    min_vel_x: 0.0        # m/s, velocidad lineal mínima
+    max_vel_theta: 1.0    # rad/s, velocidad angular máxima
+    # Curvatura mínima (0 = giro en sitio soportado si el chasis lo permite)
+    min_turning_radius: 0.0
+    # Tolerancias para considerar waypoint alcanzado
+    tolerance_xy: 0.05    # m, tolerancia posicional
+    tolerance_yaw: 0.05   # rad, tolerancia angular
+    # Tolerancia de transformación TF
+    transform_tolerance: 0.1
+    # Habilitar interpolación de trayectoria entre waypoints
+    follow_path: true
+
+# Sustituye el controlador local por el Waypoint Follower
+controller_server:
+  ros__parameters:
+    plugin_lib_names:
+      - "nav2_waypoint_follower/WaypointFollower"
+    # Frecuencias esperadas (opcional)
+    expected_planner_frequency: 20.0
+    expected_controller_frequency: 20.0

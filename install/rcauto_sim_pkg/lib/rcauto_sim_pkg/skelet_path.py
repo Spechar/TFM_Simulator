@@ -1,0 +1,1 @@
+/home/spech/tfm_ws/src/rcauto_sim_pkg/scripts/skelet_path.py

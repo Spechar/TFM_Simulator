@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.001013] (rcauto_sim_pkg) JobQueued: {'identifier': 'rcauto_sim_pkg', 'dependencies': OrderedDict()}
+[0.001115] (rcauto_sim_pkg) JobStarted: {'identifier': 'rcauto_sim_pkg'}
+[0.013150] (rcauto_sim_pkg) JobProgress: {'identifier': 'rcauto_sim_pkg', 'progress': 'cmake'}
+[0.014696] (rcauto_sim_pkg) JobProgress: {'identifier': 'rcauto_sim_pkg', 'progress': 'build'}
+[0.016267] (rcauto_sim_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/spech/tfm_ws/build/rcauto_sim_pkg', '--', '-j4', '-l4'], 'cwd': '/home/spech/tfm_ws/build/rcauto_sim_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'spech'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1492'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/spech'), ('OLDPWD', '/home/spech'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/spech/tfm_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'spech'), ('JOURNAL_STREAM', '8:46168'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'spech'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/home/spech/tfm_ws/src/rcauto_sim_pkg/models:/home/spech/tfm_ws/src/rcauto_sim_pkg/worlds/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/home/spech/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/spech-lap:@/tmp/.ICE-unix/1530,unix/spech-lap:/tmp/.ICE-unix/1530'), ('INVOCATION_ID', 'c584c6dc00714f729eee56d8f2daba4c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a9cac368_6b65_4724_8975_3a4dfe15914f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/spech/tfm_ws/install/teleop_twist_keyboard:/home/spech/tfm_ws/install/rcauto_sim_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/spech/tfm_ws/build/rcauto_sim_pkg'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/spech/tfm_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/spech/tfm_ws/install/rcauto_sim_pkg:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy')]), 'shell': False}
+[0.099794] (-) TimerEvent: {}
+[0.200477] (-) TimerEvent: {}
+[0.301488] (-) TimerEvent: {}
+[0.364420] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.401794] (-) TimerEvent: {}
+[0.502739] (-) TimerEvent: {}
+[0.539850] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.602857] (-) TimerEvent: {}
+[0.703162] (-) TimerEvent: {}
+[0.803508] (-) TimerEvent: {}
+[0.808248] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.903816] (-) TimerEvent: {}
+[0.971296] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.004074] (-) TimerEvent: {}
+[1.104898] (-) TimerEvent: {}
+[1.205940] (-) TimerEvent: {}
+[1.221248] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.260375] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.306286] (-) TimerEvent: {}
+[1.407272] (-) TimerEvent: {}
+[1.508534] (-) TimerEvent: {}
+[1.609436] (-) TimerEvent: {}
+[1.709782] (-) TimerEvent: {}
+[1.810172] (-) TimerEvent: {}
+[1.834463] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.910276] (-) TimerEvent: {}
+[1.993226] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.996053] (rcauto_sim_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.010493] (-) TimerEvent: {}
+[2.110898] (-) TimerEvent: {}
+[2.211299] (-) TimerEvent: {}
+[2.311618] (-) TimerEvent: {}
+[2.371137] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[2.391762] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[2.411730] (-) TimerEvent: {}
+[2.512097] (-) TimerEvent: {}
+[2.612681] (-) TimerEvent: {}
+[2.713321] (-) TimerEvent: {}
+[2.773691] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.813588] (-) TimerEvent: {}
+[2.914075] (-) TimerEvent: {}
+[3.015152] (-) TimerEvent: {}
+[3.116061] (-) TimerEvent: {}
+[3.131937] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[3.173940] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.216300] (-) TimerEvent: {}
+[3.285673] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[3.316668] (-) TimerEvent: {}
+[3.317828] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[3.385561] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[3.388598] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[3.416775] (-) TimerEvent: {}
+[3.423757] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[3.424084] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[3.424266] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[3.424531] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[3.424756] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[3.424947] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[3.425142] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[3.425283] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[3.425455] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[3.425684] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[3.425878] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[3.426020] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[3.516914] (-) TimerEvent: {}
+[3.607303] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.614112] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[3.615008] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[3.617103] (-) TimerEvent: {}
+[3.651363] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[3.667703] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[3.674619] (rcauto_sim_pkg) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.717385] (-) TimerEvent: {}
+[3.817800] (-) TimerEvent: {}
+[3.820485] (rcauto_sim_pkg) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[3.916650] (rcauto_sim_pkg) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.917874] (-) TimerEvent: {}
+[3.958346] (rcauto_sim_pkg) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[4.018030] (-) TimerEvent: {}
+[4.049475] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[4.050526] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[4.078860] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.086816] (rcauto_sim_pkg) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[4.118161] (-) TimerEvent: {}
+[4.131189] (rcauto_sim_pkg) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[4.214903] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[4.218450] (-) TimerEvent: {}
+[4.228105] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[4.229312] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[4.229752] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.229953] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.250999] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[4.262105] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[4.263333] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[4.264133] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.272719] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[4.274299] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[4.318615] (-) TimerEvent: {}
+[4.364647] (rcauto_sim_pkg) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[4.392933] (rcauto_sim_pkg) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[4.418719] (-) TimerEvent: {}
+[4.475027] (rcauto_sim_pkg) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[4.507327] (rcauto_sim_pkg) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[4.518846] (-) TimerEvent: {}
+[4.574827] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[4.575455] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[4.576123] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[4.578204] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Gazebo version: 11.11\n'}
+[4.600723] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[4.619023] (-) TimerEvent: {}
+[4.719329] (-) TimerEvent: {}
+[4.819665] (-) TimerEvent: {}
+[4.835760] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.919799] (-) TimerEvent: {}
+[5.020237] (-) TimerEvent: {}
+[5.120629] (-) TimerEvent: {}
+[5.149646] (rcauto_sim_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.185306] (rcauto_sim_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.187450] (rcauto_sim_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.188959] (rcauto_sim_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.195398] (rcauto_sim_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.202777] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.220801] (-) TimerEvent: {}
+[5.287921] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[5.307118] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/spech/tfm_ws/build/rcauto_sim_pkg\n'}
+[5.321000] (-) TimerEvent: {}
+[5.364383] (rcauto_sim_pkg) CommandEnded: {'returncode': 0}
+[5.365544] (rcauto_sim_pkg) JobProgress: {'identifier': 'rcauto_sim_pkg', 'progress': 'install'}
+[5.384775] (rcauto_sim_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/spech/tfm_ws/build/rcauto_sim_pkg'], 'cwd': '/home/spech/tfm_ws/build/rcauto_sim_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'spech'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1492'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/spech'), ('OLDPWD', '/home/spech'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/spech/tfm_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'spech'), ('JOURNAL_STREAM', '8:46168'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'spech'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/home/spech/tfm_ws/src/rcauto_sim_pkg/models:/home/spech/tfm_ws/src/rcauto_sim_pkg/worlds/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/home/spech/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/spech-lap:@/tmp/.ICE-unix/1530,unix/spech-lap:/tmp/.ICE-unix/1530'), ('INVOCATION_ID', 'c584c6dc00714f729eee56d8f2daba4c'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a9cac368_6b65_4724_8975_3a4dfe15914f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/spech/tfm_ws/install/teleop_twist_keyboard:/home/spech/tfm_ws/install/rcauto_sim_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/spech/tfm_ws/build/rcauto_sim_pkg'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/spech/tfm_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/spech/tfm_ws/install/rcauto_sim_pkg:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy')]), 'shell': False}
+[5.399515] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.400235] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.401139] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/launch/nav2_wayfollow.launch.py\n'}
+[5.401494] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/launch/tfm_sim.launch.py\n'}
+[5.402015] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/lib/rcauto_sim_pkg/racing_line_extractor.py\n'}
+[5.416046] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/lib/rcauto_sim_pkg/follow_racing_line.py\n'}
+[5.421142] (-) TimerEvent: {}
+[5.430534] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/nav2_config.yaml\n'}
+[5.444462] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/navigate_w_replanning_and_recovery.xml\n'}
+[5.459114] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/racing_line.yaml\n'}
+[5.475670] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/slam_config.yaml\n'}
+[5.489759] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/slam_localization.yaml\n'}
+[5.504278] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/package_run_dependencies/rcauto_sim_pkg\n'}
+[5.504815] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/parent_prefix_path/rcauto_sim_pkg\n'}
+[5.505358] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/ament_prefix_path.sh\n'}
+[5.505885] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/ament_prefix_path.dsv\n'}
+[5.506444] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/path.sh\n'}
+[5.506987] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/path.dsv\n'}
+[5.507507] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.bash\n'}
+[5.508019] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.sh\n'}
+[5.508583] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.zsh\n'}
+[5.509136] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.dsv\n'}
+[5.509882] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.dsv\n'}
+[5.521294] (-) TimerEvent: {}
+[5.524256] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/packages/rcauto_sim_pkg\n'}
+[5.524771] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/cmake/rcauto_sim_pkgConfig.cmake\n'}
+[5.525167] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/cmake/rcauto_sim_pkgConfig-version.cmake\n'}
+[5.525681] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.xml\n'}
+[5.529105] (rcauto_sim_pkg) CommandEnded: {'returncode': 0}
+[5.552243] (rcauto_sim_pkg) JobEnded: {'identifier': 'rcauto_sim_pkg', 'rc': 0}
+[5.553361] (-) EventReactorShutdown: {}

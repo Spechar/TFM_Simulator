@@ -1,0 +1,107 @@
+[0.019s] Invoking command in '/home/spech/tfm_ws/build/rcauto_sim_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --build /home/spech/tfm_ws/build/rcauto_sim_pkg -- -j4 -l4
+[0.294s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.445s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.725s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.900s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.106s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.148s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.859s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.055s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.067s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.453s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[2.475s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[2.865s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.271s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[3.315s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.426s] -- Searching for dependencies of ignition-math6
+[3.457s] -- Looking for OGRE...
+[3.522s] -- Found Ogre Ghadamon (1.9.0)
+[3.524s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.555s] -- Looking for OGRE_Paging...
+[3.555s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.556s] -- Looking for OGRE_Terrain...
+[3.556s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.556s] -- Looking for OGRE_Property...
+[3.556s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.556s] -- Looking for OGRE_RTShaderSystem...
+[3.557s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.557s] -- Looking for OGRE_Volume...
+[3.557s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.557s] -- Looking for OGRE_Overlay...
+[3.557s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.745s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.764s] -- Looking for ignition-transport8 -- found version 8.3.0
+[3.765s] -- Searching for dependencies of ignition-transport8
+[3.801s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[3.817s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.824s] -- Checking for module 'libzmq >= 4'
+[3.982s] --   Found libzmq , version 4.3.2
+[4.089s] -- Checking for module 'uuid'
+[4.130s] --   Found uuid, version 2.34.0
+[4.210s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[4.211s] -- Searching for dependencies of ignition-msgs5
+[4.239s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.247s] -- Checking for module 'tinyxml2'
+[4.292s] --   Found tinyxml2, version 6.2.0
+[4.392s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[4.400s] -- Looking for ignition-common3 -- found version 3.14.2
+[4.402s] -- Searching for dependencies of ignition-common3
+[4.402s] -- Looking for dlfcn.h - found
+[4.403s] -- Looking for libdl - found
+[4.433s] -- Searching for <ignition-common3> component [graphics]
+[4.446s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[4.447s] -- Searching for dependencies of ignition-common3-graphics
+[4.448s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.456s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[4.457s] -- Searching for dependencies of ignition-fuel_tools4
+[4.551s] -- Checking for module 'jsoncpp'
+[4.587s] --   Found jsoncpp, version 1.7.4
+[4.662s] -- Checking for module 'libzip'
+[4.744s] --   Found libzip, version 1.5.1
+[4.817s] -- Looking for ignition-common3 -- found version 3.14.2
+[4.818s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.818s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[4.821s] -- Gazebo version: 11.11
+[4.852s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.107s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.430s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.453s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.455s] -- Added test 'lint_cmake' to check CMake code style
+[5.457s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.463s] -- Added test 'xmllint' to check XML markup files
+[5.484s] -- Configuring done
+[5.575s] -- Generating done
+[5.593s] -- Build files have been written to: /home/spech/tfm_ws/build/rcauto_sim_pkg
+[5.650s] Invoked command in '/home/spech/tfm_ws/build/rcauto_sim_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --build /home/spech/tfm_ws/build/rcauto_sim_pkg -- -j4 -l4
+[5.670s] Invoking command in '/home/spech/tfm_ws/build/rcauto_sim_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --install /home/spech/tfm_ws/build/rcauto_sim_pkg
+[5.683s] -- Install configuration: ""
+[5.683s] -- Execute custom install script
+[5.684s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/launch/nav2_wayfollow.launch.py
+[5.684s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/launch/tfm_sim.launch.py
+[5.685s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/lib/rcauto_sim_pkg/racing_line_extractor.py
+[5.685s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/lib/rcauto_sim_pkg/follow_racing_line.py
+[5.686s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/nav2_config.yaml
+[5.686s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/navigate_w_replanning_and_recovery.xml
+[5.686s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/racing_line.yaml
+[5.687s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/slam_config.yaml
+[5.687s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/slam_localization.yaml
+[5.688s] -- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/pau_track/mapa_pau.pgm
+[5.702s] -- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/pau_track/mapa_pau_track.pgm
+[5.716s] -- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/pau_track/mapa_pau_track.xcf
+[5.730s] -- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/pau_track/mapa_pau_track.yaml
+[5.745s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/package_run_dependencies/rcauto_sim_pkg
+[5.745s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/parent_prefix_path/rcauto_sim_pkg
+[5.746s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/ament_prefix_path.sh
+[5.746s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/ament_prefix_path.dsv
+[5.746s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/path.sh
+[5.747s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/path.dsv
+[5.747s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.bash
+[5.748s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.sh
+[5.748s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.zsh
+[5.749s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.dsv
+[5.749s] -- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.dsv
+[5.765s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/packages/rcauto_sim_pkg
+[5.765s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/cmake/rcauto_sim_pkgConfig.cmake
+[5.766s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/cmake/rcauto_sim_pkgConfig-version.cmake
+[5.766s] -- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.xml
+[5.770s] Invoked command in '/home/spech/tfm_ws/build/rcauto_sim_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --install /home/spech/tfm_ws/build/rcauto_sim_pkg

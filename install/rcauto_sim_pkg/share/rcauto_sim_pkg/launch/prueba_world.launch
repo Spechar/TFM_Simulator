@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<launch>
+    
+    <!-- Arguments -->
+    <arg name="world" default="$(find rcauto_sim_pkg)/worlds/Test.world"/>
+    <arg name="paused" default="false"/>
+    <arg name="use_sim_time" default="true"/>
+    <arg name="gui" default="true"/>
+    <arg name="recording" default="false"/>
+    <arg name="debug" default="false"/>
+
+    <!-- Robot Description from URDF -->
+    <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find tfm_description)/urdf/tfm.urdf.xacro'"/>
+
+    <!-- Combine joint values -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen"/>
+
+    <!-- Send joint value -->
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" respawn="true" output="screen"/>
+    
+    <!-- Gazebo empty world launch file -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world" value="$(arg world)"/>
+        <arg name="paused" value="$(arg paused)"/>
+        <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+        <arg name="gui" value="$(arg gui)"/>
+        <arg name="recording" value="$(arg recording)"/>
+        <arg name="debug" value="$(arg debug)"/>
+    </include>
+
+    <!-- Gazebo simulator -->
+    <node name="gazebo" pkg="gazebo_ros" type="gazebo" respawn="false" 
+            output="screen" args="$(arg paused) -s libgazebo_ros_factory.so"/>
+    
+</launch>

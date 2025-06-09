@@ -1,0 +1,1 @@
+/home/spech/tfm_ws/build/rcauto_sim_pkg/ament_cmake_environment_hooks/local_setup.bash

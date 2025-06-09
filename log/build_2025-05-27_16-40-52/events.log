@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000728] (rcauto_sim_pkg) JobQueued: {'identifier': 'rcauto_sim_pkg', 'dependencies': OrderedDict()}
+[0.000962] (rcauto_sim_pkg) JobStarted: {'identifier': 'rcauto_sim_pkg'}
+[0.099815] (-) TimerEvent: {}
+[0.201648] (-) TimerEvent: {}
+[0.302078] (-) TimerEvent: {}
+[0.402464] (-) TimerEvent: {}
+[0.502870] (-) TimerEvent: {}
+[0.603343] (-) TimerEvent: {}
+[0.703729] (-) TimerEvent: {}
+[0.804138] (-) TimerEvent: {}
+[0.855541] (rcauto_sim_pkg) JobProgress: {'identifier': 'rcauto_sim_pkg', 'progress': 'cmake'}
+[0.904263] (-) TimerEvent: {}
+[1.004850] (-) TimerEvent: {}
+[1.040357] (rcauto_sim_pkg) JobProgress: {'identifier': 'rcauto_sim_pkg', 'progress': 'build'}
+[1.048607] (rcauto_sim_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/spech/tfm_ws/build/rcauto_sim_pkg', '--', '-j4', '-l4'], 'cwd': '/home/spech/tfm_ws/build/rcauto_sim_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'spech'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1470'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/spech'), ('OLDPWD', '/home/spech'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1364'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/spech/tfm_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'spech'), ('JOURNAL_STREAM', '8:44577'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'spech'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/home/spech/tfm_ws/src/rcauto_sim_pkg/models:/home/spech/tfm_ws/src/rcauto_sim_pkg/worlds/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/home/spech/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/spech-lap:@/tmp/.ICE-unix/1508,unix/spech-lap:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'b18a990544934f17bcee8acc8160e369'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6c27a0b_a935_49f4_98f8_88c443baf27f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/spech/tfm_ws/install/teleop_twist_keyboard:/home/spech/tfm_ws/install/rcauto_sim_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/spech/tfm_ws/build/rcauto_sim_pkg'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/spech/tfm_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/spech/tfm_ws/install/rcauto_sim_pkg:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy')]), 'shell': False}
+[1.104925] (-) TimerEvent: {}
+[1.205320] (-) TimerEvent: {}
+[1.530969] (-) TimerEvent: {}
+[1.645046] (-) TimerEvent: {}
+[1.747271] (-) TimerEvent: {}
+[1.848463] (-) TimerEvent: {}
+[1.949340] (-) TimerEvent: {}
+[2.049905] (-) TimerEvent: {}
+[2.150965] (-) TimerEvent: {}
+[2.251379] (-) TimerEvent: {}
+[2.352041] (-) TimerEvent: {}
+[2.453388] (-) TimerEvent: {}
+[2.554371] (-) TimerEvent: {}
+[2.654763] (-) TimerEvent: {}
+[2.755128] (-) TimerEvent: {}
+[2.855497] (-) TimerEvent: {}
+[2.955793] (-) TimerEvent: {}
+[3.067460] (-) TimerEvent: {}
+[3.167825] (-) TimerEvent: {}
+[3.268159] (-) TimerEvent: {}
+[3.368634] (-) TimerEvent: {}
+[3.468992] (-) TimerEvent: {}
+[3.569339] (-) TimerEvent: {}
+[3.669837] (-) TimerEvent: {}
+[3.771030] (-) TimerEvent: {}
+[3.872038] (-) TimerEvent: {}
+[3.972444] (-) TimerEvent: {}
+[4.072842] (-) TimerEvent: {}
+[4.173469] (-) TimerEvent: {}
+[4.274706] (-) TimerEvent: {}
+[4.376010] (-) TimerEvent: {}
+[4.477023] (-) TimerEvent: {}
+[4.578145] (-) TimerEvent: {}
+[4.679275] (-) TimerEvent: {}
+[4.779742] (-) TimerEvent: {}
+[4.880123] (-) TimerEvent: {}
+[4.988340] (-) TimerEvent: {}
+[5.088797] (-) TimerEvent: {}
+[5.189158] (-) TimerEvent: {}
+[5.289518] (-) TimerEvent: {}
+[5.389884] (-) TimerEvent: {}
+[5.490221] (-) TimerEvent: {}
+[5.590616] (-) TimerEvent: {}
+[5.690963] (-) TimerEvent: {}
+[5.791403] (-) TimerEvent: {}
+[5.891760] (-) TimerEvent: {}
+[5.992108] (-) TimerEvent: {}
+[6.092475] (-) TimerEvent: {}
+[6.192885] (-) TimerEvent: {}
+[6.293218] (-) TimerEvent: {}
+[6.393590] (-) TimerEvent: {}
+[6.493954] (-) TimerEvent: {}
+[6.594644] (-) TimerEvent: {}
+[6.695088] (-) TimerEvent: {}
+[6.795527] (-) TimerEvent: {}
+[6.895877] (-) TimerEvent: {}
+[6.996250] (-) TimerEvent: {}
+[7.096649] (-) TimerEvent: {}
+[7.197059] (-) TimerEvent: {}
+[7.297880] (-) TimerEvent: {}
+[7.398538] (-) TimerEvent: {}
+[7.498940] (-) TimerEvent: {}
+[7.599352] (-) TimerEvent: {}
+[7.699778] (-) TimerEvent: {}
+[7.800210] (-) TimerEvent: {}
+[7.900650] (-) TimerEvent: {}
+[8.001038] (-) TimerEvent: {}
+[8.101491] (-) TimerEvent: {}
+[8.179414] (rcauto_sim_pkg) CommandEnded: {'returncode': 0}
+[8.201613] (-) TimerEvent: {}
+[8.301976] (-) TimerEvent: {}
+[8.402377] (-) TimerEvent: {}
+[8.502875] (-) TimerEvent: {}
+[8.538909] (rcauto_sim_pkg) JobProgress: {'identifier': 'rcauto_sim_pkg', 'progress': 'install'}
+[8.604968] (-) TimerEvent: {}
+[8.610061] (rcauto_sim_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/spech/tfm_ws/build/rcauto_sim_pkg'], 'cwd': '/home/spech/tfm_ws/build/rcauto_sim_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'spech'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1470'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/spech'), ('OLDPWD', '/home/spech'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1364'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/spech/tfm_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'spech'), ('JOURNAL_STREAM', '8:44577'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'spech'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models::/home/spech/tfm_ws/src/rcauto_sim_pkg/models:/home/spech/tfm_ws/src/rcauto_sim_pkg/worlds/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/foxy/bin:/home/spech/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/spech-lap:@/tmp/.ICE-unix/1508,unix/spech-lap:/tmp/.ICE-unix/1508'), ('INVOCATION_ID', 'b18a990544934f17bcee8acc8160e369'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f6c27a0b_a935_49f4_98f8_88c443baf27f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/spech/tfm_ws/install/teleop_twist_keyboard:/home/spech/tfm_ws/install/rcauto_sim_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/spech/tfm_ws/build/rcauto_sim_pkg'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/spech/tfm_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/spech/tfm_ws/install/rcauto_sim_pkg:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy')]), 'shell': False}
+[8.705014] (-) TimerEvent: {}
+[8.805948] (-) TimerEvent: {}
+[8.825218] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.869589] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.906147] (-) TimerEvent: {}
+[8.979360] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/launch/nav2_wayfollow.launch.py\n'}
+[8.994937] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/launch/tfm_sim.launch.py\n'}
+[9.004230] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/lib/rcauto_sim_pkg/racing_line_extractor.py\n'}
+[9.005207] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/lib/rcauto_sim_pkg/show_path.py\n'}
+[9.006390] (-) TimerEvent: {}
+[9.030584] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/lib/rcauto_sim_pkg/skelet_path.py\n'}
+[9.070978] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/nav2_config.yaml\n'}
+[9.106634] (-) TimerEvent: {}
+[9.170970] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/nav2_wayfollow.yaml\n'}
+[9.206857] (-) TimerEvent: {}
+[9.241883] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/navigate_w_replanning_and_recovery.xml\n'}
+[9.255806] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/racing_line.yaml\n'}
+[9.256654] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/slam_config.yaml\n'}
+[9.257536] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/config/slam_localization.yaml\n'}
+[9.279086] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/Spielberg_map.png\n'}
+[9.279395] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/levine.png\n'}
+[9.279784] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/pau_track/mapa_pau.pgm\n'}
+[9.282057] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/pau_track/mapa_pau_track.pgm\n'}
+[9.282833] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/pau_track/mapa_pau_track.xcf\n'}
+[9.284143] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/mapas/pau_track/mapa_pau_track.yaml\n'}
+[9.285873] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/package_run_dependencies/rcauto_sim_pkg\n'}
+[9.295207] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/parent_prefix_path/rcauto_sim_pkg\n'}
+[9.298292] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/ament_prefix_path.sh\n'}
+[9.298724] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/ament_prefix_path.dsv\n'}
+[9.306993] (-) TimerEvent: {}
+[9.309760] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/path.sh\n'}
+[9.310218] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/environment/path.dsv\n'}
+[9.311449] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.bash\n'}
+[9.313207] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.sh\n'}
+[9.316732] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.zsh\n'}
+[9.317454] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/local_setup.dsv\n'}
+[9.318400] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Symlinking: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.dsv\n'}
+[9.352933] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/ament_index/resource_index/packages/rcauto_sim_pkg\n'}
+[9.353966] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/cmake/rcauto_sim_pkgConfig.cmake\n'}
+[9.372394] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/cmake/rcauto_sim_pkgConfig-version.cmake\n'}
+[9.373138] (rcauto_sim_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.xml\n'}
+[9.377621] (rcauto_sim_pkg) CommandEnded: {'returncode': 0}
+[9.407105] (-) TimerEvent: {}
+[9.507759] (-) TimerEvent: {}
+[9.591886] (rcauto_sim_pkg) JobEnded: {'identifier': 'rcauto_sim_pkg', 'rc': 0}
+[9.593936] (-) EventReactorShutdown: {}
