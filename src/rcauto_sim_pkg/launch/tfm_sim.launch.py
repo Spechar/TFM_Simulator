@@ -60,7 +60,7 @@ def generate_launch_description():
         ),
         DeclareLaunchArgument(
             'z_pos',
-            default_value='0.1',
+            default_value='0.4',
             description='Posición en Z para el spawn del coche'
         ),
         DeclareLaunchArgument(

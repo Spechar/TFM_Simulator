@@ -1,0 +1,141 @@
+[10.783s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[10.784s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcc5c13d340>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcc5c13d340>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fcc5c014cd0>)
+[12.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[12.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[12.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[12.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[12.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[12.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[12.450s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/spech/tfm_ws'
+[12.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[12.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[12.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[12.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[12.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[12.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[12.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[12.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[12.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[12.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[12.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[12.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[12.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[12.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[12.594s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[12.595s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[12.595s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[12.595s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[12.596s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[12.596s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[12.597s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[12.597s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[12.597s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[12.597s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[12.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[12.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[12.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[12.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[12.598s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[12.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[12.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[12.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[12.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[12.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[12.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[12.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[12.599s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[12.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcauto_sim_pkg) by extensions ['ignore', 'ignore_ament_install']
+[12.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcauto_sim_pkg) by extension 'ignore'
+[12.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcauto_sim_pkg) by extension 'ignore_ament_install'
+[12.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcauto_sim_pkg) by extensions ['colcon_pkg']
+[12.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcauto_sim_pkg) by extension 'colcon_pkg'
+[12.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcauto_sim_pkg) by extensions ['colcon_meta']
+[12.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcauto_sim_pkg) by extension 'colcon_meta'
+[12.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcauto_sim_pkg) by extensions ['ros']
+[12.601s] Level 1:colcon.colcon_core.package_identification:_identify(src/rcauto_sim_pkg) by extension 'ros'
+[12.648s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rcauto_sim_pkg' with type 'ros.ament_cmake' and name 'rcauto_sim_pkg'
+[12.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[12.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[12.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[12.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[12.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[12.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[12.909s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[12.940s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/spech/tfm_ws/install
+[12.953s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 301 installed packages in /opt/ros/foxy
+[12.964s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[13.859s] Level 5:colcon.colcon_core.verb:set package 'rcauto_sim_pkg' build argument 'cmake_args' from command line to 'None'
+[13.859s] Level 5:colcon.colcon_core.verb:set package 'rcauto_sim_pkg' build argument 'cmake_target' from command line to 'None'
+[13.859s] Level 5:colcon.colcon_core.verb:set package 'rcauto_sim_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.859s] Level 5:colcon.colcon_core.verb:set package 'rcauto_sim_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[13.859s] Level 5:colcon.colcon_core.verb:set package 'rcauto_sim_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[13.860s] Level 5:colcon.colcon_core.verb:set package 'rcauto_sim_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[13.860s] Level 5:colcon.colcon_core.verb:set package 'rcauto_sim_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[13.860s] Level 5:colcon.colcon_core.verb:set package 'rcauto_sim_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[13.860s] Level 5:colcon.colcon_core.verb:set package 'rcauto_sim_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.860s] DEBUG:colcon.colcon_core.verb:Building package 'rcauto_sim_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/spech/tfm_ws/build/rcauto_sim_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/spech/tfm_ws/install/rcauto_sim_pkg', 'merge_install': False, 'path': '/home/spech/tfm_ws/src/rcauto_sim_pkg', 'symlink_install': False, 'test_result_base': None}
+[13.860s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[13.861s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[13.862s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/spech/tfm_ws/src/rcauto_sim_pkg' with build type 'ament_cmake'
+[13.862s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/spech/tfm_ws/src/rcauto_sim_pkg'
+[13.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[13.994s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/spech/tfm_ws/build/rcauto_sim_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --build /home/spech/tfm_ws/build/rcauto_sim_pkg -- -j4 -l4
+[15.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/spech/tfm_ws/build/rcauto_sim_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --build /home/spech/tfm_ws/build/rcauto_sim_pkg -- -j4 -l4
+[15.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/spech/tfm_ws/build/rcauto_sim_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --install /home/spech/tfm_ws/build/rcauto_sim_pkg
+[15.264s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rcauto_sim_pkg)
+[15.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/spech/tfm_ws/build/rcauto_sim_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/spech/tfm_ws/install/teleop_twist_keyboard:/opt/ros/foxy /usr/bin/cmake --install /home/spech/tfm_ws/build/rcauto_sim_pkg
+[15.368s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg' for CMake module files
+[15.369s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg' for CMake config files
+[15.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('rcauto_sim_pkg', 'cmake_prefix_path')
+[15.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/hook/cmake_prefix_path.ps1'
+[15.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/hook/cmake_prefix_path.dsv'
+[15.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/hook/cmake_prefix_path.sh'
+[15.410s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg/lib'
+[15.410s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg/bin'
+[15.411s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg/lib/pkgconfig/rcauto_sim_pkg.pc'
+[15.411s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg/lib/python3.8/site-packages'
+[15.412s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg/bin'
+[15.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.ps1'
+[15.416s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.dsv'
+[15.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.sh'
+[15.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.bash'
+[15.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.zsh'
+[15.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/spech/tfm_ws/install/rcauto_sim_pkg/share/colcon-core/packages/rcauto_sim_pkg)
+[15.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rcauto_sim_pkg)
+[15.473s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg' for CMake module files
+[15.476s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg' for CMake config files
+[15.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('rcauto_sim_pkg', 'cmake_prefix_path')
+[15.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/hook/cmake_prefix_path.ps1'
+[15.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/hook/cmake_prefix_path.dsv'
+[15.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/hook/cmake_prefix_path.sh'
+[15.484s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg/lib'
+[15.484s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg/bin'
+[15.484s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg/lib/pkgconfig/rcauto_sim_pkg.pc'
+[15.485s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg/lib/python3.8/site-packages'
+[15.485s] Level 1:colcon.colcon_core.environment:checking '/home/spech/tfm_ws/install/rcauto_sim_pkg/bin'
+[15.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.ps1'
+[15.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.dsv'
+[15.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.sh'
+[15.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.bash'
+[15.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/spech/tfm_ws/install/rcauto_sim_pkg/share/rcauto_sim_pkg/package.zsh'
+[15.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/spech/tfm_ws/install/rcauto_sim_pkg/share/colcon-core/packages/rcauto_sim_pkg)
+[15.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.495s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.495s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.496s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.533s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.571s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.572s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spech/tfm_ws/install/local_setup.ps1'
+[15.579s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/spech/tfm_ws/install/_local_setup_util_ps1.py'
+[15.594s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spech/tfm_ws/install/setup.ps1'
+[15.606s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spech/tfm_ws/install/local_setup.sh'
+[15.608s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/spech/tfm_ws/install/_local_setup_util_sh.py'
+[15.610s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spech/tfm_ws/install/setup.sh'
+[15.614s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spech/tfm_ws/install/local_setup.bash'
+[15.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spech/tfm_ws/install/setup.bash'
+[15.621s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/spech/tfm_ws/install/local_setup.zsh'
+[15.623s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/spech/tfm_ws/install/setup.zsh'

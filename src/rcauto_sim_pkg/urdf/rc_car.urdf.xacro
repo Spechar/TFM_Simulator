@@ -56,6 +56,24 @@
   <xacro:property name="max_wheel_angular_velocity" value="${max_velocity / wheel_radius}"/>
   <xacro:property name="lidar_offsetX" value="${body_length/2 - wheel_radius}"/>
 
+  <!-- Physical Material Macros -->
+    <material name="Red">
+    	<color rgba="1.0 0 0 1.0"/>
+    </material>
+    <material name="Green">
+    	<color rgba="0 1.0 0 1.0"/>
+    </material>
+    <material name="Blue">
+    	<color rgba="0 0 1.0 0.5"/>
+    </material>
+    <material name="Black">
+    	<color rgba="0 0 0 1.0"/>
+    </material>
+    <material name="Aqua">
+    	<color rgba="0 1.0 1.0 1.0"/>
+    </material>
+
+
   <!-- Links -->
   
   <!-- Body Link -->
@@ -65,9 +83,7 @@
       <geometry>
         <box size="${body_length} ${body_width} ${body_height}"/>
       </geometry>
-      <material name="body_material">
-        <color rgba="0.25 0.25 0.25 1.0"/>
-      </material>
+      <material name="Red"/>
     </visual>
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
@@ -76,6 +92,9 @@
       </geometry>
     </collision>
   </link>
+  <gazebo reference="body_link">
+    <material>Gazebo/Red</material>
+  </gazebo>
 
   <!-- Body Base-->
   <link name="body_base_link">
@@ -84,9 +103,7 @@
       <geometry>
         <box size="${body_length} ${body_width} ${body_height}"/>
       </geometry>
-      <material name="body_material">
-        <color rgba="0.25 0.25 0.25 1.0"/>
-      </material>
+      <material name="Red"/>
     </visual>
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
@@ -100,6 +117,9 @@
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
     </inertial>
   </link>
+  <gazebo reference="body_base_link">
+    <material>Gazebo/Red</material>
+  </gazebo>
 
   <!-- Front Left Wheel -->
   <link name="front_left_wheel_link">
@@ -108,9 +128,7 @@
       <geometry>
         <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
       </geometry>
-      <material name="wheel_material">
-        <color rgba="0.0 0.0 0.0 1.0"/>
-      </material>
+      <material name="Black"/>
     </visual>
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="1.570795 0.0 0.0"/>
@@ -124,6 +142,9 @@
       <origin xyz="0.0 0.0 0.0" rpy="1.570795 0.0 0.0"/>
     </inertial>
   </link>
+  <gazebo reference="front_left_wheel_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
 
     <!-- Front Left Wheel Steering -->
   <link name="front_left_steering_link">
@@ -132,9 +153,7 @@
       <geometry>
         <cylinder length="0.001" radius="0.01"/>
       </geometry>
-      <material name="wheel_material">
-        <color rgba="0.0 0.0 0.0 1.0"/>
-      </material>
+      <material name="Black"/>
     </visual>
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="1.570795 0.0 0.0"/>
@@ -148,6 +167,9 @@
       <origin xyz="0.0 0.0 0.0" rpy="1.570795 0.0 0.0"/>
     </inertial>
   </link>
+  <gazebo reference="front_left_steering_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
 
   <!-- Front Right Wheel -->
   <link name="front_right_wheel_link">
@@ -156,9 +178,7 @@
       <geometry>
         <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
       </geometry>
-      <material name="wheel_material">
-        <color rgba="0.0 0.0 0.0 1.0"/>
-      </material>
+      <material name="Black"/>
     </visual>
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="1.570795 0.0 0.0"/>
@@ -172,6 +192,9 @@
       <origin xyz="0.0 0.0 0.0" rpy="1.570795 0.0 0.0"/>
     </inertial>
   </link>
+  <gazebo reference="front_right_wheel_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
 
   <!-- Front Right Wheel Steering -->
   <link name="front_right_steering_link">
@@ -180,9 +203,7 @@
       <geometry>
         <cylinder length="0.001" radius="0.01"/>
       </geometry>
-      <material name="wheel_material">
-        <color rgba="0.0 0.0 0.0 1.0"/>
-      </material>
+      <material name="Black"/>
     </visual>
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="1.570795 0.0 0.0"/>
@@ -196,6 +217,9 @@
       <origin xyz="0.0 0.0 0.0" rpy="1.570795 0.0 0.0"/>
     </inertial>
   </link>
+  <gazebo reference="front_right_steering_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
 
   <!-- Rear Left Wheel -->
   <link name="rear_left_wheel_link">
@@ -204,9 +228,7 @@
       <geometry>
         <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
       </geometry>
-      <material name="wheel_material">
-        <color rgba="0.0 0.0 0.0 1.0"/>
-      </material>
+      <material name="Black"/>
     </visual>
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="1.570795 0.0 0.0"/>
@@ -220,6 +242,9 @@
       <origin xyz="0.0 0.0 0.0" rpy="1.570795 0.0 0.0"/>
     </inertial>
   </link>
+  <gazebo reference="rear_left_wheel_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
 
   <!-- Rear Right Wheel -->
   <link name="rear_right_wheel_link">
@@ -228,9 +253,7 @@
       <geometry>
         <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
       </geometry>
-      <material name="wheel_material">
-        <color rgba="0.0 0.0 0.0 1.0"/>
-      </material>
+      <material name="Black"/>
     </visual>
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="1.570795 0.0 0.0"/>
@@ -244,6 +267,9 @@
       <origin xyz="0.0 0.0 0.0" rpy="1.570795 0.0 0.0"/>
     </inertial>
   </link>
+  <gazebo reference="rear_right_wheel_link">
+    <material>Gazebo/Black</material>
+  </gazebo>
 
   <!-- Joints -->
 

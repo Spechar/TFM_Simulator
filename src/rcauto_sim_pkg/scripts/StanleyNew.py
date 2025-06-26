@@ -14,8 +14,8 @@ class StanleyController(Node):
         super().__init__('stanley_controller')
         self.declare_parameter('k', 0.1)
         self.declare_parameter('wheel_base', 0.3302) #0.6 for spechCar, 0.3302 for rc_car
-        self.declare_parameter('max_speed', 0.6)
-        self.declare_parameter('min_speed', 0.4)
+        self.declare_parameter('max_speed', 0.3)
+        self.declare_parameter('min_speed', 0.2)
         self.declare_parameter('speed_gain', 5.0)
         self.declare_parameter('trajectory_file', '/home/spech/tfm_ws/src/rcauto_sim_pkg/config/line_levineF1.yaml')
         self.declare_parameter('output_dir', '/home/spech/tfm_ws/src/rcauto_sim_pkg/output')
@@ -41,7 +41,7 @@ class StanleyController(Node):
         self.path = [(pt['x'], pt['y'], pt['theta']) for pt in data.get('racing_line', [])]
         self.get_logger().info(f"Trayectoria cargada con {len(self.path)} puntos.")
 
-        csv_path = os.path.join(output_dir, 'real_pathLevineSimPropio2.csv')
+        csv_path = os.path.join(output_dir, 'real_pathLevineSimPropioTest.csv')
         self.csv_file = open(csv_path, 'w', newline='')
         self.csv_writer = csv.writer(self.csv_file)
         self.csv_writer.writerow(['time', 'x', 'y', 'yaw', 'curvature', 'speed', 'steer'])
